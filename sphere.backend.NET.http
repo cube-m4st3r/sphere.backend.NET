@@ -1,0 +1,6 @@
+@sphere.backend.NET_HostAddress = http://localhost:5288
+
+GET {{sphere.backend.NET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
